@@ -6,6 +6,6 @@ ELECTION_DATE = datetime.date(2018, 9, 9)
 def get_msg():
     today = datetime.date.today()
     delta_time = ELECTION_DATE - today
-    msg = "Idag är det {} dagar kvar till riksdagsvalet".format(
+    msg = "Idag är det {} dagar kvar till riksdagsvalet #val2018".format(
         delta_time.days)
     return msg
